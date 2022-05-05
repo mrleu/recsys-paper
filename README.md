@@ -16,8 +16,16 @@
 - [x] [Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion](https://arxiv.org/pdf/2007.04032.pdf)
 
 ## User Embedding Recommendation
-- [ ] [PinnerSage: Multi-Modal User Embedding Framework for Recommendations at Pinterest](https://arxiv.org/pdf/2007.03634.pdf)
-- [ ] [User Embedding for Scholarly Microblog Recommendation](https://aclanthology.org/P16-2073.pdf)
+- [x] [PinnerSage: Multi-Modal User Embedding Framework for Recommendations at Pinterest](https://arxiv.org/pdf/2007.03634.pdf)
+  - 4 single embedding approach for user embedding
+    - last pin is user's embedding
+    - time decay average age as user's embedding
+    - predict the next embedding
+    - k means oracle.
+  - compute a medoid based on 90 days of user's activity.
+- [x] [User Embedding for Scholarly Microblog Recommendation](https://aclanthology.org/P16-2073.pdf)
+  - average text vectors as user vector.
+  - cosine similarity is used to recommend the article to the user.
 - [x] [Contextual and Sequential User Embeddings for Large-Scale Music Recommendation](https://labtomarket.files.wordpress.com/2020/08/recsys2020.pdf)
   - define session as an average of the track embeddings.
     - embedding for skipped track and embeddings for played track.

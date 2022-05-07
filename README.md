@@ -1,4 +1,7 @@
 # recsys-paper
+notes and resources for all things recsys.
+
+## Conversational Recommendation System
 
 ## Collaborative Filtering
 - [x] [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf)

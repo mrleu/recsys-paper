@@ -15,6 +15,10 @@
 - [x] [SESSION-BASED RECOMMENDATIONS WITH RECURRENT NEURAL NETWORKS](https://arxiv.org/pdf/1511.06939.pdf)
 - [x] [Contextual Sequence Modeling for Recommendation withRecurrent Neural Networks](https://arxiv.org/pdf/1706.07684.pdf)
 
+## Sequence Based Recommendation System
+- [ ] [Sequential Recommender Systems: Challenges, Progress and Prospects](https://www.ijcai.org/proceedings/2019/0883.pdf)
+- [ ] [Deep Learning for Recommender Systems: Next basket prediction and sequential product recommendation](https://medium.com/recombee-blog/deep-learning-for-recommender-systems-next-basket-prediction-and-sequential-product-recommendation-796228b34dee)
+
 ## Graphical Neural Network Recommendation System
 - [x] [Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions](https://arxiv.org/pdf/2109.12843.pdf)
 - [x] [Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion](https://arxiv.org/pdf/2007.04032.pdf)

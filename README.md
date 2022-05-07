@@ -2,6 +2,10 @@
 notes and resources for all things recsys.
 
 ## Conversational Recommendation System
+- [ ] [Conversational Contextual Bandit: Algorithm and Application](https://arxiv.org/pdf/1906.01219.pdf)
+
+## Contextual Recommendation System
+- [ ] [Context-Aware Recommender Systems](https://www.researchgate.net/publication/220605653_Context-Aware_Recommender_Systems)
 
 ## Collaborative Filtering
 - [x] [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf)

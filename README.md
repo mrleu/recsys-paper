@@ -6,6 +6,10 @@
 
 ## Hybrid Recommendation System
 - [x] [Beyond Matrix Factorization: Using hybrid features for user-business recommendations](https://engineeringblog.yelp.com/2022/04/beyond-matrix-factorization-using-hybrid-features-for-user-business-recommendations.html)
+    - justifications that matrix factorization does not work well for users with few interactions
+    - tricky to add new content on the fly.
+    - combined both collaborative filtering and content based filtering.
+    - textual similarity between user and the business through universal sentence encoder.
 
 ## Session Based Recommendation System
 - [x] [SESSION-BASED RECOMMENDATIONS WITH RECURRENT NEURAL NETWORKS](https://arxiv.org/pdf/1511.06939.pdf)

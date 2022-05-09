@@ -3,9 +3,22 @@ notes and resources for all things recsys.
 
 ## Conversational Recommendation System
 - [ ] [Conversational Contextual Bandit: Algorithm and Application](https://arxiv.org/pdf/1906.01219.pdf)
+    - contextual bandit usually get counts based on count of clicks.
+    - using conversation preference to feed into the mondel for the contextual bandit.
+        - this helps improves the learning speed.
+    - new recommendation, each news is an arm, and the contextual vector would be the reward the user get to maximize the reward
+    - conversation is added as part of the contextual vector
+    - select the arm that maximzies the reward that is the combination of the contextual vector and the conversational vector.
+
 
 ## Contextual Recommendation System
 - [ ] [Context-Aware Recommender Systems](https://www.researchgate.net/publication/220605653_Context-Aware_Recommender_Systems)
+    - traditonal recommendation system formed the problem as ITEM X CUSTOMER -> Ratings
+    - Contextual hopes to form it as ITEM X CUSTOMER X CONTEXT -> Ratings
+    - in the form of movie recommendations, context can be in the form of 1) companion, 2) time, and 3) theater
+    - household identity can be inferred based on the observed tv program watched.
+    - pre-filtering/post-filtering/contextual filtering techniques.
+    
 
 ## Collaborative Filtering
 - [x] [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf)
@@ -51,3 +64,11 @@ notes and resources for all things recsys.
   - output and hidden states were computed with LSTM with both the played embedding and the skipped embedding.
   - output from LSTM are combined together, and then applied fully connected neural network. this is the user embedding.
   - final user embedding is computed by long term user contextual information with current session embedding.
+
+## Bandit
+- [ ] [A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf)
+    - disjoin linear model (arms weights are not shared among differnet arms)
+    - ridge regression is applied on training data to give estimates
+    - hybrid linear model has features shared between arms.
+    - it can not use the 
+    

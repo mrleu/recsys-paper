@@ -2,7 +2,7 @@
 notes and resources for all things recsys.
 
 ## Conversational Recommendation System
-- [ ] [Conversational Contextual Bandit: Algorithm and Application](https://arxiv.org/pdf/1906.01219.pdf)
+- [x] [Conversational Contextual Bandit: Algorithm and Application](https://arxiv.org/pdf/1906.01219.pdf)
     - contextual bandit usually get counts based on count of clicks.
     - using conversation preference to feed into the mondel for the contextual bandit.
         - this helps improves the learning speed.
@@ -12,7 +12,7 @@ notes and resources for all things recsys.
 
 
 ## Contextual Recommendation System
-- [ ] [Context-Aware Recommender Systems](https://www.researchgate.net/publication/220605653_Context-Aware_Recommender_Systems)
+- [x] [Context-Aware Recommender Systems](https://www.researchgate.net/publication/220605653_Context-Aware_Recommender_Systems)
     - traditonal recommendation system formed the problem as ITEM X CUSTOMER -> Ratings
     - Contextual hopes to form it as ITEM X CUSTOMER X CONTEXT -> Ratings
     - in the form of movie recommendations, context can be in the form of 1) companion, 2) time, and 3) theater
@@ -66,7 +66,7 @@ notes and resources for all things recsys.
   - final user embedding is computed by long term user contextual information with current session embedding.
 
 ## Bandit
-- [ ] [A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf)
+- [x] [A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf)
     - disjoin linear model (arms weights are not shared among differnet arms)
     - ridge regression is applied on training data to give estimates
     - hybrid linear model has features shared between arms.

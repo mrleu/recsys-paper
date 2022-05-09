@@ -70,5 +70,4 @@ notes and resources for all things recsys.
     - disjoin linear model (arms weights are not shared among differnet arms)
     - ridge regression is applied on training data to give estimates
     - hybrid linear model has features shared between arms.
-    - it can not use the 
     

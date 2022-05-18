@@ -1,6 +1,20 @@
 # recsys-paper
 notes and resources for all things recsys.
 
+## Recommendatoin System Literature Review
+- [x] [A Survey of Recommendation Systems: Recommendation Models, Techniques, and Application Fields](file:///Users/alexleu/Desktop/electronics-11-00141-v2.pdf)
+    - trend analysis/surevy for recommendatoin systems
+    - content based/collaobrative based/hybrid based
+    - hybrid has 7 types 
+        - weighted
+        - switching
+        - cascade
+        - mixed
+        - feature combinaton
+        - feature augmentation
+        - meta level
+    - simpliest way to evaluate recommendation is through RMSE.
+
 ## Conversational Recommendation System
 - [x] [Conversational Contextual Bandit: Algorithm and Application](https://arxiv.org/pdf/1906.01219.pdf)
     - contextual bandit usually get counts based on count of clicks.
@@ -37,7 +51,9 @@ notes and resources for all things recsys.
 
 ## Sequence Based Recommendation System
 - [ ] [Sequential Recommender Systems: Challenges, Progress and Prospects](https://www.ijcai.org/proceedings/2019/0883.pdf)
-- [ ] [Deep Learning for Recommender Systems: Next basket prediction and sequential product recommendation](https://medium.com/recombee-blog/deep-learning-for-recommender-systems-next-basket-prediction-and-sequential-product-recommendation-796228b34dee)
+- [x] [Deep Learning for Recommender Systems: Next basket prediction and sequential product recommendation](https://medium.com/recombee-blog/deep-learning-for-recommender-systems-next-basket-prediction-and-sequential-product-recommendation-796228b34dee)
+    - uses long term dynamics + short term dynamics to make prediciton
+    - mostly summarizes sequential product recommendation examples
 
 ## Graphical Neural Network Recommendation System
 - [x] [Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions](https://arxiv.org/pdf/2109.12843.pdf)
@@ -64,10 +80,25 @@ notes and resources for all things recsys.
   - output and hidden states were computed with LSTM with both the played embedding and the skipped embedding.
   - output from LSTM are combined together, and then applied fully connected neural network. this is the user embedding.
   - final user embedding is computed by long term user contextual information with current session embedding.
+- [x] [Personalized Embedding-based e-Commerce Recommendations at eBay]()
+    - softmax probability with temperature
+    - gated recurrent neural work to pass along user's history.
+    - dot product between user embedding and item embedding 
+    - in batch negative sampling
 
 ## Bandit
 - [x] [A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf)
     - disjoin linear model (arms weights are not shared among differnet arms)
     - ridge regression is applied on training data to give estimates
     - hybrid linear model has features shared between arms.
+- [x] [Deep neural network marketplace recommenders in online experiments](https://arxiv.org/pdf/1809.02130.pdf)
+    - hybrid item representation model
+        - used ALS with click and conversion signal with more weight on conversion
+        - textual feature is a variant of CNN using word2vec
+        - image features are text prediction based on the image
     
+## Two Tower
+- [x] [Model-based candidate generation for account recommendations](https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations)
+    - allows to add in graph based features.
+    - 1 tower focuses on getting consumption behavior
+    - 1 tower focuses on production behavior

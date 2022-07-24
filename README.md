@@ -102,3 +102,25 @@ notes and resources for all things recsys.
     - allows to add in graph based features.
     - 1 tower focuses on getting consumption behavior
     - 1 tower focuses on production behavior
+
+- [ ] [Improving Deep Learning For Airbnb Search](https://arxiv.org/pdf/2002.05515.pdf)
+
+## Recency
+- [ ] [Optimizing the Recency-Relevancy Trade-off in Online News Recommendations](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p837.pdf)
+- [ ] [Improvising Personalized Travel Recommendation System with Recency Effects](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p837.pdf)
+
+## Deals Recommendation
+- [ ] [SmarterDeals: A Context-aware Deal Recommendation System based on the SmarterContext Engine](https://webhome.cs.uvic.ca/~thomo/papers/cascon12.pdf)
+    - uses collaborative filtering
+    - you can use simple average, weighted sum, adjusted weighted sum to define the ratings.
+    - RMSE for all model.
+- [ ] [Personalized Recommendation of Coupon Deals by Keywords Association Rules](http://www.jiii.org/uploadfile/2016/0215/20160215015927959.pdf)
+    - 150k transaction
+    - 2k deals
+    - 76k users with transaction
+    - keywords that are frequently bought together.
+
+## Churn Model
+- [ ] [Churn Prediction with Sequential Data and Deep Neural Networks](https://arxiv.org/pdf/1909.11114.pdf)
+
+test
